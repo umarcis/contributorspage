@@ -57,7 +57,7 @@ h3 {
   display: table-cell;
   vertical-align: middle;
   float: middle left;
-
+  
   /* text-align: center; */
 }
 
@@ -69,11 +69,13 @@ h3 {
   margin: 20px 0 20px 0;
 }
 
-.navbar-brand img {
-  width: 100px;
-  border-radius: 5px;
-  float: left;
-  margin-right: 10px;
+.navbar-brand
+  img {
+    width: 100px;
+    border-radius: 5px;
+    float: left;
+    margin-right: 10px;
+  
 }
 
 /* ========================== */
@@ -90,6 +92,7 @@ h3 {
 /* === BUTTONS (Generic) === */
 /* ========================= */
 .btn-general {
+  
   border-color: #ffffff;
   border-width: 2px;
   border-radius: 0;
@@ -111,13 +114,16 @@ h3 {
   color: #41464b;
 }
 
+
+
 .btn-blue:hover,
 .btn-white:focus {
+  
   color: #ffffff;
 }
 
 .btn-back-to-top {
-  position: fixed;
+  position: fixed;;
   bottom: 20px;
   right: 20px;
   font-size: 22px;
@@ -587,6 +593,58 @@ form .form-control {
 form .form-control:focus {
   background: transparent;
   color: #ffffff;
+}
+
+/* ==================================================== */
+/* ====================== FOOTER ====================== */
+/* ==================================================== */
+#footer-bottom {
+  background-color: rgba(0, 0, 0, 0.1);
+  padding: 30px 0;
+  margin-top: 60px;
+}
+
+#footer-bottom p {
+  margin: 0;
+  color: #ffffff;
+}
+
+#footer-menu {
+  float: left;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+#footer-menu ul {
+  list-style-type: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+#footer-menu ul li {
+  display: inline-block;
+}
+
+#footer-menu a {
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 300;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+#footer-menu a:hover {
+  color: #34c6d3;
+}
+
+#footer-copyrights p a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+#footer-copyrights p a:hover {
+  color: #34c6d3;
 }
 
 /* ==================================================== */
